@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DotNetCoreMVC\\Abc.Northwind.MvcWebUI\\Abc.Northwind.MvcWebUI.csproj": {}
+  },
+  "projects": {
+    "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj",
+        "projectName": "Abc.Core",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dnxcore50"
+          ]
+        }
+      }
+    },
+    "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\Abc.Northwind.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\Abc.Northwind.Business.csproj",
+        "projectName": "Abc.Northwind.Business",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\Abc.Northwind.Business.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "projectReferences": {
+              "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj"
+              },
+              "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\Abc.Northwind.DataAccess.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\Abc.Northwind.DataAccess.csproj"
+              },
+              "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dnxcore50"
+          ]
+        }
+      }
+    },
+    "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\Abc.Northwind.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\Abc.Northwind.DataAccess.csproj",
+        "projectName": "Abc.Northwind.DataAccess",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\Abc.Northwind.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Northwind.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "projectReferences": {
+              "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj"
+              },
+              "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dnxcore50"
+          ]
+        }
+      }
+    },
+    "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj",
+        "projectName": "Abc.Northwind.Entities",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "projectReferences": {
+              "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dnxcore50"
+          ]
+        }
+      }
+    },
+    "E:\\DotNetCoreMVC\\Abc.Northwind.MvcWebUI\\Abc.Northwind.MvcWebUI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Northwind.MvcWebUI\\Abc.Northwind.MvcWebUI.csproj",
+        "projectName": "Abc.Northwind.MvcWebUI",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.MvcWebUI\\Abc.Northwind.MvcWebUI.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Northwind.MvcWebUI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp1.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp1.0": {
+            "projectReferences": {
+              "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj"
+              },
+              "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\Abc.Northwind.Business.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Business\\Abc.Northwind.Business.csproj"
+              },
+              "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj": {
+                "projectPath": "E:\\DotNetCoreMVC\\Abc.Northwind.Entities\\Abc.Northwind.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp1.0": {
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.Cookies": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Diagnostics": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Server.IISIntegration": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.AspNetCore.Server.Kestrel": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.AspNetCore.StaticFiles": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[1.0.4, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dotnet5.6",
+            "portable-net45+win8"
+          ]
+        }
+      }
+    }
+  }
+}

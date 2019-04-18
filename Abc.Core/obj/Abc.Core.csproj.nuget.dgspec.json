@@ -1,0 +1,61 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {}
+  },
+  "projects": {
+    "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj",
+        "projectName": "Abc.Core",
+        "projectPath": "E:\\DotNetCoreMVC\\Abc.Core\\Abc.Core.csproj",
+        "packagesPath": "C:\\Users\\enes\\.nuget\\packages\\",
+        "outputPath": "E:\\DotNetCoreMVC\\Abc.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\enes\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard1.6"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard1.6": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard1.6": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "NETStandard.Library": {
+              "target": "Package",
+              "version": "[1.6.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "dnxcore50"
+          ]
+        }
+      }
+    }
+  }
+}
